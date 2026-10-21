@@ -14,5 +14,5 @@ There are 4 severe vulnerabilities:
 - `main.js`
 
 ## Exclusions
-- Configuration. This challenge is focused on code, not configuration.
+- Configuration. This exercise focuses on application code.
 - Dependencies. If dependencies have vulnerabilities, don't worry about fixing them.

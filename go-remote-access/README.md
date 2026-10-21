@@ -12,7 +12,7 @@ There are 2 severe vulnerabilities:
 - main.go
 
 ## Exclusions
-- Rate-limiting. Usually one would implement this with a separate piece of software, and that's just a lot of work for this challenge.
+- Rate-limiting. Infrastructure-level rate limiting is outside the scope of this exercise.
 - Constant-time string compare for password.
 - Post-auth command injection. That is the entire point of this program.
 - Clear-text password storage. Yes, it is a problem. However, a rando on the internet cannot abuse this in any meaningful way without compromising the host in the first place. You are focused on the code, not the config.
